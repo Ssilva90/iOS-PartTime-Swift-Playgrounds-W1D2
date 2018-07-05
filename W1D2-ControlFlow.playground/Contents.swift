@@ -49,16 +49,29 @@ if someThing == otherThing {
 
 bicycleCount = 1
 
-
+if bicycleCount > 1 {
+    print("There are \(bicycleCount) bicycles")
+} else {
+    print("There is \(bicycleCount) bicycle")
+}
 
 
 //: ### Challenge 2
 //:
 //: Now try to add an `else if` clause so it prints out "There are zero bicycles" if the `bicycleCount` is 0. `else if` goes between the `if` and the `else` blocks.
 
-bicycleCount = 0
+bicycleCount = 1
 
 
+if bicycleCount > 1 {
+    print("There are \(bicycleCount) bicycles")}
+    
+else if bicycleCount == 0{
+        print("There are zero bicycles")
+    
+} else {
+    print("There is \(bicycleCount) bicycle")
+}
 
 
 
@@ -69,7 +82,10 @@ bicycleCount = 0
 var inputString = "Do you like bicycles?"
 
 
-
+if inputString.suffix(1) == "?" {
+    print("I think so!)")
+}
+else { print("You don't say!")}
 
 
 
